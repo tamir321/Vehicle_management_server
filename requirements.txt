@@ -1,0 +1,5 @@
+fastapi
+json2html
+pydantic
+uvicorn
+pandas

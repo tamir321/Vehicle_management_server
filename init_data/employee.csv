@@ -1,0 +1,7 @@
+row,employee_id,first_name,last_name,license_expiration,license_group
+1,1112345,tamir,reiss,2025-12-18,A
+2,1122345,omer,koren,2025-12-18,C
+3,1212345,galit,test,2023-12-18,B
+4,1112345,ofir,beeri,2022-12-18,A
+5,4545,fisfdfrst,lasdfsdfst,2008-09-15,A
+6,85645645,my name,last name,2023-09-15,B
