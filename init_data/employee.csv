@@ -5,3 +5,5 @@ row,employee_id,first_name,last_name,license_expiration,license_group
 4,1112345,ofir,beeri,2022-12-18,A
 5,4545,fisfdfrst,lasdfsdfst,2008-09-15,A
 6,85645645,my name,last name,2023-09-15,B
+7,7676767676,first76,last76,2028-09-15,A
+8,12345678,first,last,2008-09-15,A
