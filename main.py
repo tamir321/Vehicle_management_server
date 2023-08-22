@@ -21,7 +21,7 @@ globals.employees = CsvConvertor(globals.employee_file)
 
 app = FastAPI()
 
-app.include_router(employees.router)
+# app.include_router(employees.router)
 app.include_router(vehicles.router)
 
 @app.get("/" ,tags = ["web-server"])
@@ -33,12 +33,16 @@ async def my_cars():
     return {"cars":["bmw","gm","vw"]}
 
 @app.get("/my_report")
-async def my_cars():
-    return {"report":["bmw","gm","vw"]}
+async def my_report():
+    return {"report":"this is my report"}
+
+@app.get("/my_name")
+async def my_emps():
+    return {"emps":"tamir"}
 
 @app.get("/my_emps")
-async def my_cars():
-    return {"report":["bmw","gm","vw"]}
+async def my_emps():
+    return {"emps":["emp1","emp2","emp3"]}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=9000)

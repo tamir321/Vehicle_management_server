@@ -1,0 +1,34 @@
+{"8": {
+
+                "Plate_id": 8,
+                "Manufacture": "GM",
+                "Model": "LYRIQ",
+
+                "current_mileage" : 1300 ,
+                "service_duration" :15000,
+                "last_service" : 0,
+                "Group" : "A"
+            },
+"9":{
+
+                "Plate_id": 9,
+                "Manufacture": "GM",
+                "Model": "AAAA",
+
+                "current_mileage" : 1300 ,
+                "service_duration" :15000,
+                "last_service" : 0,
+                "Group" : "A"
+            },
+"10":{
+
+                "Plate_id": 10,
+                "Manufacture": "GM",
+                "Model": "AAAA",
+
+                "current_mileage" : 1300 ,
+                "service_duration" :15000,
+                "last_service" : 0,
+                "Group" : "A"
+            }
+}
