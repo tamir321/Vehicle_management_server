@@ -160,6 +160,14 @@ async def add_new_car(current_user: Annotated[User, Depends(get_current_active_u
     if int(number) == 1:
         return new_car
     return {"message":"bla bla","user":current_user.username}
+
+@app.post("/add_car_no_user/{number}")
+async def add_new_car_no_user(  new_car : Car ,number):
+    if int(number) == 1:
+        return new_car
+    return {"message":"bla bla"}
+
+
 #pwd_context.identify("$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW")
 print(get_password_hash("bcrypt"))
 print(get_password_hash("password"))
